@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
 	trailingSlash: true,
 	skipTrailingSlashRedirect: true,
 	output: 'export',
-	distDir: 'out',
 	images: { unoptimized: true },
 
 	// Добавляем HTTP-заголовки
