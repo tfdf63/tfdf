@@ -35,3 +35,4 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H tfdf63.beget.tech >> ~/.ssh/known_hosts
           scp -r out/* tfdf63_tfdf@tfdf63.beget.tech:
+          scp -r public/images tfdf63_tfdf@tfdf63.beget.tech:
