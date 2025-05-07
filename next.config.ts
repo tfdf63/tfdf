@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
 	skipTrailingSlashRedirect: true,
 	// output: 'export',
 	// output: 'standalone',
-	distDir: 'out',
+	// distDir: 'out',
 	images: { unoptimized: true },
 
 	// Добавляем HTTP-заголовки
