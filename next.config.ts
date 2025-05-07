@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
 	trailingSlash: true,
 	skipTrailingSlashRedirect: true,
 	// output: 'export',
-	output: 'standalone',
+	// output: 'standalone',
 	distDir: 'out',
 	images: { unoptimized: true },
 
